@@ -9,7 +9,7 @@
 ## 01. Define a function `return_shape_name()` which returns the shape name given number of corners.
 
 ```python
-def return_shape_name(number_of_corners: int):
+def return_shape_name(number_of_corners: int) -> str:
     """
     >>> return_shape_name(0)
     'Circle'
